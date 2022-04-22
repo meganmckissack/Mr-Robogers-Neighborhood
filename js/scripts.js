@@ -1,8 +1,8 @@
+
 function replaceNumbers(usrNum) {
+  userNumArray = [];
   for (i = 0; i <= usrNum; i++) {
-    let newNum = usrNum - [i];
-    //return newNum
-    console.log(newNum);
+    userNumArray.push(usrNum - [i]);
   }
-  
+  return userNumArray.reverse();
 }
