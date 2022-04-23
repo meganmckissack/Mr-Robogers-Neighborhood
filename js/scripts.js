@@ -5,13 +5,15 @@ function numArray(usrNum) {
   }
   return userNumArray.reverse();
 }
-numArray(15)
+numArray(20)
 
 
 function replaceNumbers() {
 const replacedNumArray = userNumArray.map(function(num, i){
-  if(num.toString().includes(1)) {
+  if(num.toString().includes(1)){
     return num[i] = "Bleep";
+  } else if(num.toString().includes(2)){
+    return num[i] = "Boop!"
   } else {
     return num
   }

@@ -13,3 +13,7 @@ Expected Output: 0, "Beep!", 2, 3, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Beep!", "Be
 Test: "It should replace the number with and return the string "Boop!" if the number starts with the number 2"
 Code: numArray(20) replaceNumbers();
 Expected Output: 0, "Beep!", "Boop!", 3, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Boop!"
+
+Test: "It should replace the number with and return the string "Won't you be my neighbor?" if the number starts with the number 3"
+Code: numArray(30) replaceNumbers();
+Expected Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Boop!", "Boop!", "Boop!", "Boop!", "Boop!", "Boop!", "Boop!", "Boop!", "Boop!", "Boop!", "Won't you be my neighbor?"
