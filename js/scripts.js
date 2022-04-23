@@ -7,3 +7,14 @@ function numArray(usrNum) {
 }
 numArray(15)
 
+
+function replaceNumbers() {
+const replacedNumArray = userNumArray.map(function(num, i){
+  if(num.toString().includes(1)) {
+    return num[i] = "Bleep";
+  } else {
+    return num
+  }
+}); return replacedNumArray
+}
+console.log(replaceNumbers())
