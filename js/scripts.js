@@ -5,7 +5,7 @@ function numArray(usrNum) {
   }
   return userNumArray.reverse();
 }
-numArray(20)
+numArray(30)
 
 
 function replaceNumbers() {
@@ -14,6 +14,8 @@ const replacedNumArray = userNumArray.map(function(num, i){
     return num[i] = "Bleep";
   } else if(num.toString().includes(2)){
     return num[i] = "Boop!"
+  } else if(num.toString().includes(3)) {
+    return num[i] = "Won't you be my neighbor?"
   } else {
     return num
   }
