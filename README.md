@@ -28,6 +28,8 @@ Mr. Roboger's Neighborhood is an app that returns a set of numbers from 0 to the
 
 - form input button changes alignment after sumbmitting a number and displaying the result
 
+- Please enter a number message displays even when a number is entered
+
 ## License
 
 _MIT_
