@@ -3,6 +3,7 @@ body {
   background: rgb(63,94,251);
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   color: antiquewhite;
+  text-align: center;
 }
 
 .container {
@@ -15,6 +16,8 @@ body {
   width: 60%;
   align-items: center;
   background-color: rgb(126, 41, 70);
+  border-style: solid;
+  border-color: rgb(36, 2, 17);
   border-radius: 5px;
 }
 
@@ -28,6 +31,11 @@ body {
 }
 
 #robogerResult {
+  margin: auto;
+  padding: 10px;
+}
+
+#noNumber {
   margin: auto;
   padding: 10px;
 }
