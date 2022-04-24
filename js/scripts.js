@@ -5,6 +5,9 @@ $(document).ready(function(){
     const numResult = numArray(usrNumberInput);
     $('#robogerResult').text(replaceNumbers(numResult));
     $('#noNumber').text(message);
+    $('#reloadApp').click(function(){
+      window.location.reload();
+    })
   });
 }); 
 
