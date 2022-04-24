@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  color: antiquewhite;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10%;
+  padding: 5px;
+  height: 50vh;
+  width: 60%;
+  align-items: center;
+  background-color: rgb(126, 41, 70);
+  border-radius: 5px;
+}
+
+.form-group {
+  margin: auto;
+}
+
+.form-button {
+  text-align: center;
+  padding: 10px;
+}
+
+#robogerResult {
+  margin: auto;
+  padding: 10px;
+}
